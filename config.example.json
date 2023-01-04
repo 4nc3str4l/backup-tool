@@ -3,7 +3,7 @@
     "platform-config" : {
         "api-key": "some-api-key"
     },
-    "tacking-groups": [
+    "target-files": [
         {
             "encription-enabled": true,
             "encription-key": "some random key",
