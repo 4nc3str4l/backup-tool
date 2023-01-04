@@ -1,0 +1,26 @@
+{
+    "platform": "pcloud",
+    "platform-config" : {
+        "api-key": "some-api-key"
+    },
+    "tacking-groups": [
+        {
+            "encription-enabled": true,
+            "encription-key": "some random key",
+            "interval": "2h",
+            "target": [
+                "/a_folder_path",
+                "/a_file_path/hello.txt"
+            ]
+        },
+        {
+            "encription-enabled": false,
+            "encription-key": "",
+            "interval": "1d",
+            "target": [
+                "/a_folder_path",
+                "/a_file_path/hello.txt"
+            ]
+        }
+    ]
+}
